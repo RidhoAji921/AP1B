@@ -1,0 +1,11 @@
+file_data = open(r"C:\Users\Ridho Aji\OneDrive\Documents\Programming\Python\APbm7\data.txt", "r")
+print(file_data.readlines())
+file_data.close()
+
+file_data = open(r"C:\Users\Ridho Aji\OneDrive\Documents\Programming\Python\APbm7\data.txt", "r")
+baris_data = file_data.readlines()
+print(baris_data[0])
+print(baris_data[1])
+print(baris_data[2])
+print(baris_data[0])
+print(baris_data[0])
